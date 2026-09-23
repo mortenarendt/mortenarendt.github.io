@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Morten Arendt Rasmussen — Computational Food &amp; Health Science, University of Copenhagen</title>
+  <meta name="description"
+    content="Morten Arendt Rasmussen, Professor of Computational Food and Health Science at UCPH FOOD and COPSAC. Chemometrics, metabolomics and microbiome modelling for food, nutrition and early-life health.">
+
+  <!-- Social preview (optional: add images/preview.jpg) -->
+  <meta property="og:title" content="Morten Arendt Rasmussen — Computational Food & Health Science">
+  <meta property="og:description"
+    content="Chemometrics, metabolomics and microbiome modelling for food, nutrition and early-life health.">
+  <meta property="og:type" content="profile">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav class="nav">
+    <div class="wrap nav-inner">
+      <span class="nav-name">M. A. Rasmussen</span>
+      <div class="nav-links">
+        <a href="#research">Research</a>
+        <a href="#methods">Methods</a>
+        <a href="#publications">Publications</a>
+        <a href="#projects">Projects</a>
+        <a href="#data">Data &amp; cohorts</a>
+        <a href="#code">Code</a>
+        <a href="#news">Talks</a>
+        <a href="#team">Team</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero wrap" id="about">
+    <div class="hero-grid">
+      <div>
+        <p class="role" id="hero-role"></p>
+        <h1 id="hero-name"></h1>
+        <p class="intro" id="hero-intro"></p>
+        <ul class="affil" id="hero-affil"></ul>
+        <div class="hero-links" id="hero-links"></div>
+      </div>
+
+      <figure class="hero-fig">
+        <img class="portrait" id="hero-photo" alt="" loading="eager">
+        <!-- Signature graphic: a three-way array (samples x features x time)
+           approximated by three rank-one components. The three colours are
+           reused by the research themes below. -->
+        <svg class="decomp" viewBox="0 0 600 250" role="img"
+          aria-label="A three-way data array decomposed into three rank-one components">
+          <path class="stroke" d="M30 75 h110 v110 h-110 Z" />
+          <path class="stroke" d="M30 75 l38 -28 h110 l-38 28" />
+          <path class="stroke" d="M140 75 l38 -28 v110 l-38 28" />
+          <g class="grid">
+            <path d="M57 75 v110 M85 75 v110 M112 75 v110" />
+            <path d="M30 102 h110 M30 130 h110 M30 157 h110" />
+          </g>
+          <text class="lbl" x="30" y="205">metabolites</text>
+          <text class="lbl" x="22" y="130" transform="rotate(-90 22 130)" text-anchor="middle">samples</text>
+          <text class="lbl" x="150" y="42">time</text>
+          <text class="op" x="200" y="140">&#8776;</text>
+          <g class="comp" fill="var(--c1)">
+            <rect x="240" y="90" width="13" height="95" />
+            <rect x="259" y="172" width="66" height="13" />
+            <path d="M259 84 l34 -25 h13 l-34 25 Z" />
+          </g>
+          <text class="op" x="333" y="140">+</text>
+          <g class="comp" fill="var(--c2)">
+            <rect x="360" y="90" width="13" height="95" />
+            <rect x="379" y="172" width="66" height="13" />
+            <path d="M379 84 l34 -25 h13 l-34 25 Z" />
+          </g>
+          <text class="op" x="453" y="140">+</text>
+          <g class="comp" fill="var(--c3)">
+            <rect x="480" y="90" width="13" height="95" />
+            <rect x="499" y="172" width="66" height="13" />
+            <path d="M499 84 l34 -25 h13 l-34 25 Z" />
+          </g>
+        </svg>
+        <figcaption class="caption" id="hero-caption"></figcaption>
+      </figure>
+    </div>
+    <dl class="stats" id="hero-stats"></dl>
+  </header>
+
+  <main>
+    <!-- RESEARCH -->
+    <section class="section wrap" id="research">
+      <p class="eyebrow">Research programme</p>
+      <h2 id="research-title"></h2>
+      <p class="lede" id="research-lede"></p>
+      <ol class="questions" id="research-questions"></ol>
+      <div class="grid grid-3" id="research-grid"></div>
+    </section>
+
+    <!-- METHODS -->
+    <section class="section wrap" id="methods">
+      <p class="eyebrow">Methodology</p>
+      <h2>Methods we develop and use</h2>
+      <p class="lede" id="methods-lede"></p>
+      <ul class="rows" id="methods-list"></ul>
+    </section>
+
+    <!-- PUBLICATIONS -->
+    <section class="section wrap" id="publications">
+      <p class="eyebrow">Publications</p>
+      <h2>Selected papers</h2>
+      <p class="lede" id="pubs-lede"></p>
+      <div id="pubs-list"></div>
+      <p class="more" id="pubs-more"></p>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section wrap" id="projects">
+      <p class="eyebrow">Projects &amp; funding</p>
+      <h2>Research projects</h2>
+      <div class="grid grid-2" id="projects-grid"></div>
+    </section>
+
+    <!-- DATA & COHORTS -->
+    <section class="section wrap" id="data">
+      <p class="eyebrow">Infrastructure</p>
+      <h2>Data &amp; cohorts</h2>
+      <p class="lede" id="data-lede"></p>
+      <ul class="rows" id="data-list"></ul>
+    </section>
+
+    <!-- CODE -->
+    <section class="section wrap" id="code">
+      <p class="eyebrow">Open science</p>
+      <h2>Code &amp; datasets</h2>
+      <p class="lede" id="code-lede"></p>
+      <ul class="rows" id="code-list"></ul>
+    </section>
+
+    <!-- TALKS & AWARDS -->
+    <section class="section wrap" id="news">
+      <p class="eyebrow">Recent</p>
+      <h2>Talks, awards &amp; news</h2>
+      <ul class="news" id="news-list"></ul>
+    </section>
+
+    <!-- TEAM -->
+    <section class="section wrap" id="team">
+      <p class="eyebrow">People</p>
+      <h2>Team</h2>
+      <p class="lede" id="team-lede"></p>
+      <div class="people" id="team-current"></div>
+      <h3 class="sub">Alumni</h3>
+      <ul class="alumni" id="team-alumni"></ul>
+      <h3 class="sub">Visiting researchers</h3>
+      <p class="lede lede-sm" id="visitors-lede"></p>
+      <ul class="alumni" id="team-visitors"></ul>
+      <h3 class="sub">Bachelor &amp; MSc students supervised</h3>
+      <p class="lede lede-sm" id="students-lede"></p>
+      <ul class="students" id="team-students"></ul>
+    </section>
+
+    <!-- TEACHING -->
+    <section class="section wrap" id="teaching">
+      <p class="eyebrow">Teaching</p>
+      <h2>Courses &amp; supervision</h2>
+      <p class="lede" id="teaching-lede"></p>
+      <ul class="rows" id="teaching-list"></ul>
+    </section>
+  </main>
+
+  <!-- CONTACT -->
+  <footer class="contact" id="contact">
+    <div class="wrap">
+      <p class="eyebrow">Contact</p>
+      <h2>Working together</h2>
+      <div class="contact-grid">
+        <div>
+          <p id="contact-note"></p>
+          <dl id="contact-dl"></dl>
+        </div>
+        <div>
+          <h3 class="sub-sm">Elsewhere</h3>
+          <div class="contact-links" id="contact-links"></div>
+        </div>
+      </div>
+      <div class="foot">
+        <span id="foot-updated"></span>
+        <!-- <span>Built as a static site &#183; content lives in data.js</span> -->
+      </div>
+    </div>
+  </footer>
+
+  <!-- data.js holds all content; main.js renders it. Order matters. -->
+  <script src="data.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
