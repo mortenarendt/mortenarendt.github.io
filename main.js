@@ -136,7 +136,7 @@
         `<a href="${l.href}">${l.label} &#8599;</a>`)}</div>
     </article>`));
   set("team-alumni", list(SITE.alumni, a =>
-    `<li><strong>${a.name}</strong><span>${linked(a.note, a.link)}</span></li>`));
+    `<li><strong>${a.name}</strong><span>${a.note}</span></li>`));
   set("visitors-lede", SITE.visitorsLede || "");
   set("team-visitors", list(SITE.visitors, v =>
     `<li><strong>${v.name}</strong><span>${linked(v.note, v.link)}</span></li>`));
