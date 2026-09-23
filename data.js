@@ -30,7 +30,7 @@ const SITE = {
   stats: [
     { value: "9,500+", label: "Citations" },
     { value: "53", label: "h-index" },
-    { value: "2012", label: "PhD, Medicometrics" }
+    { value: "2012", label: "PhD, ometrics" }
   ],
 
   /* ── RESEARCH PROGRAMME ─────────────────────────────────────────────────── */
@@ -136,7 +136,7 @@ const SITE = {
     {
       year: "2026", authors: "Chen, L., Brustad, N., Thorsen, J., Wang, T., … Rasmussen, M. A., … Chawes, B.",
       title: "Maternal 12-HETE is associated with childhood asthma and the responses to prenatal omega-3 supplementation",
-      venue: "Cell Reports Medicine", link: "https://doi.org/10.1016/j.xcrm.2026.102689"
+      venue: "Cell Reports ine", link: "https://doi.org/10.1016/j.xcrm.2026.102689"
     },
 
     {
@@ -155,7 +155,7 @@ const SITE = {
     {
       year: "2025", authors: "Horner, D., Jepsen, J. R. M., Chawes, B., Vinding, R., … Stokholm, J., Rasmussen, M. A.",
       title: "Maternal dietary patterns, breastfeeding duration, and their association with child cognitive function and head circumference growth",
-      venue: "PLOS Medicine", link: "https://doi.org/10.1371/journal.pmed.1004454"
+      venue: "PLOS ine", link: "https://doi.org/10.1371/journal.pmed.1004454"
     },
 
     {
@@ -173,7 +173,7 @@ const SITE = {
     {
       year: "2025", authors: "Horner, D., Vinding, R., Wang, T., Ali, M., … Chawes, B., Rasmussen, M. A.",
       title: "A metabolomic signature of maternal BMI is associated with pregnancy complications across two independent pregnancy cohorts",
-      venue: "Communications Medicine", link: "https://doi.org/10.1038/s43856-025-01289-5"
+      venue: "Communications ine", link: "https://doi.org/10.1038/s43856-025-01289-5"
     },
 
     {
@@ -204,7 +204,7 @@ const SITE = {
     {
       year: "2020", authors: "Stokholm, J., Thorsen, J., Blaser, M. J., Rasmussen, M. A., … Sørensen, S. J., Bisgaard, H.",
       title: "Delivery mode and gut microbial changes correlate with an increased risk of childhood asthma",
-      venue: "Science Translational Medicine", link: "https://doi.org/10.1126/scitranslmed.aax9929"
+      venue: "Science Translational ine", link: "https://doi.org/10.1126/scitranslmed.aax9929"
     },
 
     {
@@ -217,7 +217,7 @@ const SITE = {
     {
       year: "2016", authors: "Bisgaard, H., Stokholm, J., Chawes, B., … Rasmussen, M. A., … Bønnelykke, K.",
       title: "Fish oil–derived fatty acids in pregnancy and wheeze and asthma in offspring",
-      venue: "New England Journal of Medicine", link: "https://doi.org/10.1056/NEJMoa1503734",
+      venue: "New England Journal of ine", link: "https://doi.org/10.1056/NEJMoa1503734",
       note: "The COPSAC2010 n-3 LCPUFA randomised trial: supplementation in the third trimester reduced persistent wheeze and asthma in the offspring."
     },
 
@@ -256,7 +256,7 @@ const SITE = {
     },
 
     {
-      name: "MEDITERRACARE", role: "Co-PI", period: "2025–2027",
+      name: "MEDITERRAAACARE", role: "Co-PI", period: "2025–2027",
       body: "Mediterranean diet and equality in early breast cancer: A multicenter randomized clinical trial. This study investigates how and if it is possible to use a healthy supportive diet under and after treatment of breast cancer. Our role is to provide statistical and bioinformatics support for microbiome analysis.",
       link: "https://ctv.veeva.com/study/mediterranean-diet-and-inequality-in-early-breast-cancer"
     },
