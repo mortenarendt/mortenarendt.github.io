@@ -70,7 +70,23 @@ const SITE = {
   methodsLede: "A short account of the technical toolkit, for people deciding whether their problem fits.",
   methods: [
     {
-      name: "Multi-way decomposition", tag: "Core", meta: "PARAFAC, Tucker, CP-based models",
+      name: "Wavelet decomposition", tag: "Core", meta: "Continuous Glucose Monitoring, Post prandial",
+      body: "Wavelet transformation of CGM signal after intake of meal to model physiological responses beyond general uptake and metabolic activation."
+    },
+    {
+      name: "LMM for Image2Nut", tag: "Core", meta: "Large Multi Modal (LMM) models images",
+      body: "Open LMM models for ingredients classification and nutritional composition prediction from images of meals and foods."
+    },
+    {
+      name: "Gaussian Process", tag: "Core", meta: "Bayesian, Kernel functions",
+      body: "Using Gaussian Process (GP) modelling on longitudinal temporal data to model- and correct impact of seasonality."
+    },
+    {
+      name: "Auxilary Metabolic Gene (AMGs) Idenfication", tag: "Core", meta: "Bioinformatics",
+      body: "Using virome and metagenomic sequencing data to identify and characterize AMGs."
+    },
+    {
+      name: "Multi-way decomposition", tag: "Applied", meta: "PARAFAC, Tucker, CP-based models",
       body: "Modelling three- and higher-way arrays — sample x variable x time or x condition — so that components stay interpretable rather than becoming an unlabelled projection."
     },
     {
@@ -239,6 +255,12 @@ const SITE = {
       link: "https://researchleaderprogramme.com/recipients/morten-arendt-rasmussen/"
     },
 
+    {
+      name: "MEDITERRACARE", role: "Co-PI", period: "2025–2027",
+      body: "Mediterranean diet and equality in early breast cancer: A multicenter randomized clinical trial. This study investigates how and if it is possible to use a healthy supportive diet under and after treatment of breast cancer. Our role is to provide statistical and bioinformatics support for microbiome analysis.",
+      link: "https://ctv.veeva.com/study/mediterranean-diet-and-inequality-in-early-breast-cancer"
+    },
+    
     {
       name: "TrACEr", role: "Co-PI, lead of the Danish side", period: "2020–2024",
       body: "Time-Aware ConstrainEd Multimodal Data Fusion: constrained coupled matrix and tensor factorisation for joint analysis of static and time-resolved data, tested on COPSAC metabolomics, microbiome and clinical phenotype. With Evrim Acar Ataman's Data Science and Knowledge Discovery department at Simula in Oslo, UCPH FOOD and the University of Amsterdam; I lead the five researchers on the Danish side. Research Council of Norway (IKTPLUSS) with Novo Nordisk Foundation support.",
@@ -455,8 +477,11 @@ const SITE = {
   ],
 
   alumni: [
-    { name: "Parvaneh Ibrahimi", note: "Postdoc — now Assistant Professor, DTU Health Tech" },
-    { name: "Sarah Nørgaard", note: "PhD — now Statens Serum Institut" },
+    { 
+      name: "Parvaneh Ibrahimi", note: "Postdoc — now Assistant Professor, DTU Health Tech", 
+        link: "https://orbit.dtu.dk/en/persons/parvaneh-ebrahimi/" 
+    },
+    { name: "Sarah Nørgaard", note: "PhD — now Statens Serum Institut", link: "https://www.ssi.dk/om-ssi/kontakt/medarbejdere/s/sarah-kristine-noergaard-sknd" },
     { name: "Emil Christensen", note: "PhD student" },
     { name: "Negar Chahibakhsh", note: "Research assistant" }
   ],
@@ -488,11 +513,11 @@ const SITE = {
       name: "Laura Garcia-Urtiaga", note: "AZTI, Food and Health Area",
       link: "https://www.azti.es/en/sectors/food-health/"
     },
-    { name: "Ena Babac", note: "Visiting researcher", link: "" },
-    { name: "Nika Svesko", note: "Visiting researcher", link: "" },
-    { name: "Aikaterini Makri", note: "Visiting researcher", link: "" },
-    { name: "Elisavet Dimoula", note: "Visiting researcher", link: "" },
-    { name: "Sunniva Verhoeven", note: "Visiting researcher", link: "" }
+    { name: "Ena Babac", note: "Visiting student", link: "" },
+    { name: "Nika Svesko", note: "Visiting student", link: "" },
+    { name: "Aikaterini Makri", note: "Visiting student", link: "" },
+    { name: "Elisavet Dimoula", note: "Visiting student", link: "" },
+    { name: "Sunniva Verhoeven", note: "Visiting student", link: "" }
   ],
 
   /* BSc and MSc students supervised — plain names, newest additions at the top. */
@@ -523,7 +548,7 @@ const SITE = {
   teachingLede: "Course material is written openly and published as browsable books, so it stays useful after the course ends. I supervise BSc, MSc and PhD projects across all three research themes.",
   teaching: [
     {
-      code: "BSc", title: "Data Analysis for Food Science", meta: "R &amp; jamovi · 8 weeks",
+      code: "BSc", title: "Data Analysis for Food Science", meta: "R · 9 weeks",
       body: "Second-year bachelor course in Food Science and Technology: descriptive statistics, distributions and the central limit theorem, hypothesis testing, count data, power, ANOVA and regression — each built on real food-science problems rather than textbook data. Published as an open Quarto book.",
       link: "https://mortenarendt.github.io/fooddataanalysis/"
     },
