@@ -28,8 +28,8 @@ const SITE = {
   },
 
   stats: [
-    { value: "9,500+", label: "Citations" },
-    { value: "53", label: "h-index" },
+    { value: "10,000+", label: "Citations" },
+    { value: "54", label: "h-index" },
     { value: "2012", label: "PhD, ometrics" }
   ],
 
@@ -481,6 +481,10 @@ const SITE = {
       name: "Parvaneh Ibrahimi", note: "Postdoc — now Assistant Professor, DTU Health Tech", 
         link: "https://orbit.dtu.dk/en/persons/parvaneh-ebrahimi/" 
     },
+    { 
+      name: "Jesper Løve Hinrich", note: "Postdoc — now Post Doc, DTU Compute", 
+        link: "https://orbit.dtu.dk/en/persons/jesper-l%C3%B8ve-hinrich/" 
+    },
     { name: "Sarah Nørgaard", note: "PhD — now Statens Serum Institut", link: "https://www.ssi.dk/om-ssi/kontakt/medarbejdere/s/sarah-kristine-noergaard-sknd" },
     { name: "Emil Christensen", note: "PhD student" },
     { name: "Negar Chahibakhsh", note: "Research assistant" }
@@ -493,6 +497,10 @@ const SITE = {
     {
       name: "Mario Lovrić", note: "Centre for Applied Bioanthropology, Institute for Anthropological Research, Zagreb",
       link: "https://inantro.hr/"
+    },
+    {
+      name: "Kenneth Mertz", note: "Institut for Idrætsmedicin, Bispebjerg Hospital, Copenhagen",
+      link: "https://research.regionh.dk/da/persons/kenneth-mertz/"
     },
     {
       name: "Iva Šunić", note: "Centre for Applied Bioanthropology, Institute for Anthropological Research, Zagreb",
@@ -523,6 +531,7 @@ const SITE = {
   /* BSc and MSc students supervised — plain names, newest additions at the top. */
   studentsLede: "Bachelor and master students supervised at the Department of Food Science.",
   students: [
+    "Jens Wolff",
     "Simon Fynbo Stendal",
     "Martin Ingwersen Engberg",
     "Jiyun Long",
